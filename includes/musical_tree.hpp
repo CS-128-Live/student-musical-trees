@@ -37,7 +37,8 @@ public:
   // EFFECTS : Removes all nodes from the tree that have a motif with a fitness
   // level below the threshold. See specifications for exact algorithm required.
   // If tree is the root and tree has no children, do nothing. 
-  // DO NOT ACCESS size_ in this function (it will break the autograder) 
+  // DO NOT check the size_ in this function (it will break the autograder)
+  // However, you may and should update the size_ in this function.
   // Part 1
   void PruneNodes(MotifNode* tree, double threshold);
 
